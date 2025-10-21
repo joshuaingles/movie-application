@@ -3,17 +3,17 @@
 This is a SpringBoot-based collection of REST endpoints for a Movie CRUD API.
 This API currently supports the following functions:
 
- -- Create a Movie resource
+ - Create a Movie resource
     - Path: POST /api/v1/movies
- -- Create Movie resources
+ - Create Movie resources
     - Path: POST /api/v1/movies/bulk
- -- Get a Movie
+ - Get a Movie
     - Path: GET /api/v1/movies/{id}
- -- Get a list of Movies, optional filter criteria of Release Year and/or Genre
+ - Get a list of Movies, optional filter criteria of Release Year and/or Genre
     - Path: GET /api/v1/movies
- -- Update a Movie
+ - Update a Movie
     - Path: PATCH /api/v1/movies/{id}
- -- Delete a Movie
+ - Delete a Movie
     - Path: DELETE /api/v1/movies/{id}
 
 # Swagger UI
